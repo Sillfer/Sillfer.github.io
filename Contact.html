@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/Contact.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Prosto+One" rel="stylesheet">
+    <title>Contact</title>
+</head>
+
+<body>
+
+
+    <nav>
+        <div class="logo">RENTMENOW</div>
+        <div class="toggle-bars">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Gallery.html">Gallerry</a></li>
+                <li><a href="Reservation.html">Reservation</a></li>
+                <li><a style="color:#324b79;" href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact -->
+    <div class="container">
+        <div id="contact">
+            <h3>Contact us!</h3>
+            <h4>Contact us today, with our 24/7 customer services.</h4>
+            <fieldset>
+                <input placeholder="Your name" id="Nom" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Email Address" id="Email" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Phone Number" id="Nbr" type="tel" tabindex="3" required>
+            </fieldset>
+            <fieldset>
+                <textarea placeholder="Type your Message Here...." id="Msg" tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit">Submit</button>
+            </fieldset>
+        </div>
+    </div>
+    <!-- End Contact -->
+
+
+    <footer>
+        <div class="footer">
+          <div class="column">
+            <ul>
+              <li class="title">ABOUT US </li>
+              <li>Reservation Headquarters for your personal vehicle needs. New, used and gratuitously accessible vehicles to fit any budget.</li>
+            </ul>
+          </div>
+      
+      <div class="column">
+        <ul>
+          <li class="title">LINKS</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Reservation</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="column">
+        <ul>
+          <li class="title">FOLLOW US</li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Reddit</a></li>
+        </ul>
+      </div>
+      
+      <div class="column" style="position: relative;  bottom: 40px;">
+        <ul>
+          <div  class="footer-margin">
+          <li class="title">NEWSLETTER</li>
+          <li>
+            <form action="#" method="post">
+            <input type="email" name="email" placeholder="Email*"  maxlength="80" required /><button class="btn1"><i class="fa fa-paper-plane"></i></button>
+          </form>
+          </li>
+        </ul>
+      </div>
+        </div>
+      </div>
+      </div>
+      </footer>
+          <div class="sub-footer">
+        All Copyright Reserved © 2021
+    </div>
+
+
+
+     <!-- JavaScript -->
+    <script> 
+        document.querySelector("#contact-submit").addEventListener('click', function (event) {
+            var Name = document.getElementById("Nom").value;
+            var Email = document.getElementById("Email").value;
+            var Nbr = document.getElementById("Nbr").value;
+            var Msg = document.getElementById("Msg").value;
+            alert("Name: "+Name+"\n"+"Email: " +Email+"\n"+"Phone Number: "+Nbr+"\n"+"Msg: "+Msg);        });
+    </script>
+    <script src="js/JavaScript.js"></script>
+
+
+</body>
+
+</html>
