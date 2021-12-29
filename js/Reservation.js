@@ -75,9 +75,9 @@ document.querySelector("#select-submit").addEventListener('click', function (eve
     console.log(carfuel);
     console.log(gearBox);
 
-    // calcule boite de vittes none de moto
+    // calcule boite de vittes none de motorbike
     if (gearBox == 'none') {
-        if (cars == 'moto') {
+        if (cars == 'motorbike') {
             if (carfuel == 'Electrique') {
                 price = (10 * 0.05) + 10;
             }
@@ -136,8 +136,8 @@ document.querySelector("#select-submit").addEventListener('click', function (eve
                 price = 12 + (12 * 0.05);
             }
         }
-        // calcule utilitaire
-        if (cars == 'utilitaire') {
+        // calcule Utility
+        if (cars == 'Utility') {
             if (carfuel == 'Diesel') {
                 price = 16 + (16 * 0.21);
             }
