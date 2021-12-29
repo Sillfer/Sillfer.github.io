@@ -210,6 +210,10 @@ height: auto;
   padding:30px 0px;
   /* font-family: 'Play', sans-serif; */
   }
+  .title-position{
+    position:relative;
+    bottom: 5px;
+  }
   
   .footer .column{
   width:20%;
@@ -296,7 +300,13 @@ height: auto;
     .footer-margin{
       margin-top: 30%;
     }
-  } 
+  }
+  @media screen and (max-width: 700px){
+    .title-position{
+      margin-top: 20%;
+    }
+  }
+    
   @media only screen and (max-width: 1000px) {
     .responsive {
       width: 49.99999%;
@@ -378,7 +388,7 @@ height: auto;
     left:0;
     right:0;
     bottom:0;
-    width:100%;
+    width:100%; 
     height:100%;
     background: #00000078;
     border-bottom-left-radius:5px;

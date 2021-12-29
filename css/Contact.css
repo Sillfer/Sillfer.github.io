@@ -40,11 +40,6 @@ body
   font-weight: lighter;
   color: white;
 }
-/* .footer-margin{
-  position: relative;
-  bottom: 93px;
-} */
-
 
 fieldset {
   border: medium none !important;
@@ -88,7 +83,7 @@ fieldset {
 }
 
 #contact button[type=submit]:hover {
-  background: rgb(255, 255, 255); 
+  background: #385488; 
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
