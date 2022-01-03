@@ -22,12 +22,12 @@ form.vehicle.addEventListener('change', function () {
             break;
         case 2:
             remove_fuel();
-            fuel = ['Hybirde', 'Essence', 'Diesel'];
+            fuel = ['hybride', 'Essence', 'Diesel'];
             gearBox = 'manual';
             break;
         case 3:
             remove_fuel();
-            fuel = ['Electrique', 'Hybirde', 'Essence', 'Diesel'];
+            fuel = ['Electrique', 'hybride', 'Essence', 'Diesel'];
             gearBox = 'manual';
             break;
         case 4:
@@ -37,7 +37,7 @@ form.vehicle.addEventListener('change', function () {
             break;
         case 5:
             remove_fuel();
-            fuel = ['Hybirde', 'Essence', 'Diesel'];
+            fuel = ['hybride', 'Essence', 'Diesel'];
             gearBox = 'Automatique';
             break;
         case 6:
@@ -90,7 +90,7 @@ document.querySelector("#select-submit").addEventListener('click', function (eve
     if (gearBox == 'Automatique') {
         // calcule berlin
         if (cars == 'berlin') {
-            if (carfuel == 'Hybirde') {
+            if (carfuel == 'hybride') {
                 price = ((20 * 0.19) + (20 * 0.09)) + 20;
             }
             if (carfuel == 'Essence') {
@@ -111,7 +111,7 @@ document.querySelector("#select-submit").addEventListener('click', function (eve
     if (gearBox == 'manual') {
         // calcule compact
         if (cars == 'compact') {
-            if (carfuel == 'Hybirde') {
+            if (carfuel == 'hybride') {
                 price = 14 + (14 * 0.09);
             }
             if (carfuel == 'Essence') {
@@ -123,7 +123,7 @@ document.querySelector("#select-submit").addEventListener('click', function (eve
         }
         // calcule citadin
         if (cars == 'citadin') {
-            if (carfuel == 'Hybirde') {
+            if (carfuel == 'hybride') {
                 price = 12 + (12 * 0.09);
             }
             if (carfuel == 'Essence') {
