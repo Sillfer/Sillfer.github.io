@@ -155,7 +155,7 @@ document.querySelector("#select-submit").addEventListener('click', function (eve
 
     price = price * day;
     // console.log(price);
-    alert( `Le prix: ${price} £ `);
+    alert( `Price: ${price} € `);
 
 
 });
