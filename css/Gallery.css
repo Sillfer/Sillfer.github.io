@@ -102,8 +102,8 @@ body {
     gap: 20px;
     align-items: flex-start;
     flex-direction: column;
-    height: 100vh;
-    margin-bottom: -20%;
+    height: 60vh;
+    /* margin-bottom: -20%; */
   }
   .gallery-item figcaption {
     padding: 5px;
