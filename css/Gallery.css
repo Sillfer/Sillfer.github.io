@@ -103,7 +103,6 @@ body {
     align-items: flex-start;
     flex-direction: column;
     height: 60vh;
-    /* margin-bottom: -20%; */
   }
   .gallery-item figcaption {
     padding: 5px;
