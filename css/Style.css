@@ -127,9 +127,7 @@ body {
   }
 
   div.gallery img {
-    width: 100%;
-    height: auto;
-    align-content: flex-end;
+   object-fit: cover;
   }
   
   
